@@ -25,7 +25,8 @@ the output to some file:
 The module will catch all output, including your explicit prints to
 STDERR, warnings about undefined values, dies and even dies as
 a result of compilation error. You do not need any special
-treatment/functions -- Tie::STDERR will catch all.
+treatment/functions -- Tie::STDERR will catch all. Now, this also
+works in mod_perl/Apache::Registry scripts
 
 Warning for now:
 	Nor the name nor the functionality has yet been cleared with
