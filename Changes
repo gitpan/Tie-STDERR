@@ -1,0 +1,10 @@
+
+0.12 Tue May  5 14:46:36 MET DST 1998
+	The tieness can now be switched off using use Tie::STDERR undef;
+
+0.11 Mon Apr 27 17:38:40 MET DST 1998
+	Added check for tty. Remove unnecessary BEGIN block.
+
+0.10 Sat Apr 25 19:21:35 MET DST 1998
+	Original release.
+
