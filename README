@@ -23,11 +23,9 @@ the output to some file:
 	use Tie::STDERR '>> /tmp/testing.log';
 
 The module will catch all output, including your explicit prints to
-STDERR, warnings, dies and even dies as a result of compilation error.
-The dies have one bug -- the output still goes to STDERR and with the
-compilation problem, you only get the message that there was
-a problem, but not what the problem was -- if you know how to solve
-the problem, please let me know.
+STDERR, warnings about undefined values, dies and even dies as
+a result of compilation error. You do not need any special
+treatment/functions -- Tie::STDERR will catch all.
 
 Warning for now:
 	Nor the name nor the functionality has yet been cleared with

@@ -1,4 +1,8 @@
 
+0.20 Sun Nov 29 20:28:57 MET 1998
+	Under mod_perl, Tie::STDERR now utilizes register_cleanup, so
+	that you get the error messages after each script is run.
+
 0.12 Tue May  5 14:46:36 MET DST 1998
 	The tieness can now be switched off using use Tie::STDERR undef;
 
